@@ -1,4 +1,4 @@
-class marca:
+class Marca:
 
     def __init__(self, nombre):
         self.nombre = nombre
@@ -7,6 +7,4 @@ class marca:
         self.nombre = nombre
 
     def getNombre(self):
-        return self.nombre  
-    
-    
+        return self.nombre
